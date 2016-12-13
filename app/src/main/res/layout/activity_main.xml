@@ -9,9 +9,34 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.aarya.fieldofficersurveilance.activity.MainActivity">
-
     <TextView
+        android:id="@+id/tv1_user_name"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Username"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt1_user_name"
+        android:layout_below="@+id/tv1_user_name"
+        android:layout_width="wrap_content"
+        android:hint="username plaese"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv2_password"
+        android:layout_below="@+id/edt1_user_name"
+        android:layout_width="wrap_content"
+        android:text="password"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt2_password"
+        android:layout_below="@+id/tv2_password"
+        android:layout_width="wrap_content"
+        android:hint="password please"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/edt2_password"
+        android:text="Log In"
+        android:layout_height="wrap_content" />
+
 </RelativeLayout>

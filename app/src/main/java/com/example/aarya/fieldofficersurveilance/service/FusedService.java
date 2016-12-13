@@ -66,7 +66,7 @@ public class FusedService extends Service implements GoogleApiClient.ConnectionC
                 int level = intent.getIntExtra(BatteryManager.EXTRA_LEVEL,-1);
                 float percentage = level/ (float) scale;
                 mProgressStatus = (int)((percentage)*100);
-                Toast.makeText(FusedService.this,"batt :"+mProgressStatus+"%",Toast.LENGTH_LONG).show();
+              //  Toast.makeText(FusedService.this,"batt :"+mProgressStatus+"%",Toast.LENGTH_LONG).show();
             }
         };
 
@@ -85,8 +85,8 @@ public class FusedService extends Service implements GoogleApiClient.ConnectionC
             String deviceNum;
             TelephonyManager telephonyManager = (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
             deviceNum = telephonyManager.getDeviceId();
-            Toast.makeText(FusedService.this,"loc:" +currentLat + "/ " + currentLng +
-                    " /" + currentAcc + "/ " + currentSpeed +"/"+currentDateTime +"/"+deviceNum,Toast.LENGTH_LONG).show();
+           /* Toast.makeText(FusedService.this,"loc:" +currentLat + "/ " + currentLng +
+                    " /" + currentAcc + "/ " + currentSpeed +"/"+currentDateTime +"/"+deviceNum,Toast.LENGTH_LONG).show();*/
 
 
             Call<List<Response>> call = apiService.sendGpsData(currentLat+"", currentLng+"",deviceNum,
