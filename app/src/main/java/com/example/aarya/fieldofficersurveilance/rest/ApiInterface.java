@@ -24,4 +24,10 @@ public interface ApiInterface {
              @Query("Speed") String speed,
              @Query("location") String location,
              @Query("Direction") String direction);
+
+    @GET("/sgm_android/WebService.asmx/fologin")
+    Call<List<Response>> sendLoginCredential
+            (@Query("fo_id") String fo_id,
+             @Query("pwd") String pwd,
+             @Query("imei") String imei);
 }

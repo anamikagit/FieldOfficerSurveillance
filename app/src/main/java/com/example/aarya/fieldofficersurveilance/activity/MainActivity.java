@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.aarya.fieldofficersurveilance.R;
 import com.example.aarya.fieldofficersurveilance.service.FusedService;
@@ -28,5 +29,8 @@ public class MainActivity extends AppCompatActivity {
         edt_userName = (EditText) findViewById(R.id.edt1_user_name);
         edt_password = (EditText) findViewById(R.id.edt2_password);
         btn_submit = (Button) findViewById(R.id.btn_submit);
+
+        String str_userName = edt_userName.getText().toString();
+        Toast.makeText(MainActivity.this,"username:"+str_userName,Toast.LENGTH_LONG).show();
     }
 }
