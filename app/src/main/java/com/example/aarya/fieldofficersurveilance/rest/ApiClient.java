@@ -1,5 +1,8 @@
 package com.example.aarya.fieldofficersurveilance.rest;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
@@ -15,12 +18,28 @@ public class ApiClient{
 
         public static Retrofit getClient() {
 
-            HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+           /* HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
             logging.setLevel(HttpLoggingInterceptor.Level.BODY);
             OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
-            httpClient.addInterceptor(logging);
+            httpClient.addInterceptor(logging);*/
 
             if (retrofit==null) {
+
+                HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+// set your desired log level
+                logging.setLevel(HttpLoggingInterceptor.Level.BODY);
+
+                OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
+// add your other interceptors …
+
+// add logging as last interceptor
+                httpClient.addInterceptor(logging);
+
+                Gson gson = new GsonBuilder()
+                        .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
+                        .create();
+
+
                 retrofit = new Retrofit.Builder()
                         .baseUrl(BASE_URL)
                         .addConverterFactory(GsonConverterFactory.create())

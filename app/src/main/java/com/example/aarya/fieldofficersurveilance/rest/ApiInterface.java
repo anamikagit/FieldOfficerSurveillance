@@ -1,5 +1,9 @@
 package com.example.aarya.fieldofficersurveilance.rest;
 
+import android.text.Editable;
+
+import com.example.aarya.fieldofficersurveilance.model.LoginResponse;
+
 import java.util.List;
 
 import okhttp3.OkHttpClient;
@@ -26,8 +30,8 @@ public interface ApiInterface {
              @Query("Direction") String direction);
 
     @GET("/sgm_android/WebService.asmx/fologin")
-    Call<List<Response>> sendLoginCredential
-            (@Query("fo_id") String fo_id,
-             @Query("pwd") String pwd,
+    Call<List<LoginResponse>> sendLoginCredential
+            (@Query("User_ID") Editable User_ID,
+             @Query("pwd") Editable pwd,
              @Query("imei") String imei);
 }
