@@ -29,7 +29,7 @@ import retrofit2.Response;
 public class MainActivity extends AppCompatActivity {
     TextView tv_userName,tv_password;
     EditText edt_userName,edt_password;
-    Button btn_submit;
+    Button btn_submit,btn_stopService;
     public Editable saveUid;
     public Editable savePwd;
     ApiInterface apiService = ApiClient.getClient().create(ApiInterface.class);
@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
        Intent i=new Intent(MainActivity.this,FusedService.class);
         startService(i);
-
         tv_userName = (TextView) findViewById(R.id.tv1_user_name);
         tv_password = (TextView) findViewById(R.id.tv2_password);
         edt_userName = (EditText) findViewById(R.id.edt1_user_name);
@@ -57,13 +56,14 @@ public class MainActivity extends AppCompatActivity {
         btn_submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                /*String saveUname = edt_userName.getText().toString();
-                String savePwd = edt_password.getText().toString();*/
                 saveUid = (edt_userName.getText());
                 savePwd = (edt_password.getText());
                 SendUsernamePassword();
 
                 Toast.makeText(MainActivity.this,"name:"+ saveUid,Toast.LENGTH_LONG).show();
+
+                Intent i = new Intent(MainActivity.this,LoggedInFO.class);
+                startActivity(i);
             }
         });
     }
