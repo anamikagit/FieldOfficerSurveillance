@@ -25,6 +25,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 import io.fabric.sdk.android.Fabric;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -58,6 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
        Intent i=new Intent(MainActivity.this,FusedService.class);
         startService(i);
+
         /*tv_userName = (TextView) findViewById(R.id.tv1_user_name);
         tv_password = (TextView) findViewById(R.id.tv2_password);
         edt_userName = (EditText) findViewById(R.id.edt1_user_name);
@@ -67,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         String str_userName = edt_userName.getText().toString();
         Toast.makeText(MainActivity.this,"username:"+str_userName,Toast.LENGTH_LONG).show();
 
-        btn_submit.setOnClickListener(new View.OnClickListener() {
+       btn_submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 saveUid = (edt_userName.getText());
@@ -87,27 +89,17 @@ public class MainActivity extends AppCompatActivity {
         call.enqueue(new Callback<List<LoginResponse>>() {
             @Override
             public void onResponse(Call<List<LoginResponse>> call, Response<List<LoginResponse>> response) {
-
+                List<LoginResponse> loginResponses = response.body();
+                if(loginResponses != null && loginResponses.size()>0){
+                    LoginResponse loginResponse = loginResponses.get(0);
+                    Toast.makeText(MainActivity.this,"welcome :" +loginResponse.getFo_name() +loginResponse.getFo_id(),Toast.LENGTH_LONG).show();
+                    //getSupportActionBar().setTitle("welcome :" +loginResponse.getFo_name().toUpperCase());
+                }
             }
 
             @Override
             public void onFailure(Call<List<LoginResponse>> call, Throwable t) {
             }
         });
-        /*ApiInterface apiService = ApiClient.getClient().create(ApiInterface.class);
-
-        Call<List<LoginResponse>> call = apiService.sendLoginCredential(savePwd,saveUname,Util.getIMEI());
-        call.enqueue(new Callback<List<LoginResponse>>() {
-            @Override
-            public void onResponse(Call<List<LoginResponse>> call, Response<List<LoginResponse>> response) {
-               *//* List<LoginResponse> loginResponse = response.body();
-                (loginResponse.get(0).getId());*//*
-            }
-
-            @Override
-            public void onFailure(Call<List<LoginResponse>> call, Throwable t) {
-                Log.e("anu", "Call failed: " + t.getMessage());
-            }
-        });*/
     }
 }
