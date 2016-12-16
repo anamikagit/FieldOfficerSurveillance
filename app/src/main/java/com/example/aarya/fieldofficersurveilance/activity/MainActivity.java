@@ -22,14 +22,23 @@ import com.example.aarya.fieldofficersurveilance.service.FusedService;
 
 import java.util.List;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
-    TextView tv_userName,tv_password;
+
+    @BindView(R.id.tv1_user_name) TextView tv_userName;
+    @BindView(R.id.tv2_password) TextView tv_password;
+    @BindView(R.id.edt1_user_name) EditText edt_userName;
+    @BindView(R.id.edt2_password) EditText edt_password;
+    @BindView(R.id.btn_submit) Button btn_submit;
+
+   /* TextView tv_userName,tv_password;
     EditText edt_userName,edt_password;
-    Button btn_submit,btn_stopService;
+    Button btn_submit,btn_stopService;*/
     public Editable saveUid;
     public Editable savePwd;
     ApiInterface apiService = ApiClient.getClient().create(ApiInterface.class);
@@ -38,17 +47,17 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        ButterKnife.bind(this);
         TelephonyManager mngr = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
         Util.setIMEI(mngr.getDeviceId().toString());
 
        Intent i=new Intent(MainActivity.this,FusedService.class);
         startService(i);
-        tv_userName = (TextView) findViewById(R.id.tv1_user_name);
+        /*tv_userName = (TextView) findViewById(R.id.tv1_user_name);
         tv_password = (TextView) findViewById(R.id.tv2_password);
         edt_userName = (EditText) findViewById(R.id.edt1_user_name);
         edt_password = (EditText) findViewById(R.id.edt2_password);
-        btn_submit = (Button) findViewById(R.id.btn_submit);
+        btn_submit = (Button) findViewById(R.id.btn_submit);*/
 
         String str_userName = edt_userName.getText().toString();
         Toast.makeText(MainActivity.this,"username:"+str_userName,Toast.LENGTH_LONG).show();
