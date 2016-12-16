@@ -13,6 +13,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
 import com.example.aarya.fieldofficersurveilance.R;
 import com.example.aarya.fieldofficersurveilance.model.LoginResponse;
 import com.example.aarya.fieldofficersurveilance.model.Util;
@@ -24,6 +25,7 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.fabric.sdk.android.Fabric;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -46,6 +48,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        Fabric.with(this, new Crashlytics());
+
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         TelephonyManager mngr = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
