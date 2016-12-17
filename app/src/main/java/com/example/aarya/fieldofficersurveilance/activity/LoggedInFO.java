@@ -41,7 +41,6 @@ public class LoggedInFO extends AppCompatActivity {
                     }
                 });
                 break;
-
             }
             Log.e("service","service stopped");
         }
