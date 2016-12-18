@@ -120,15 +120,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.android.databinding\baseLibrary\2.2.2\5e227e2d794cf680dd34fb04dd564ce58d6c764d\baseLibrary-2.2.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5e227e2d794cf680dd34fb04dd564ce58d6c764d">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.2_ef61e10a1d92574ae26eed0917b83fe288f808a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -504,6 +495,15 @@
         revision="25.0.0"
         sha1="26674000177e45447a0326a6ad84612761199a13">
         <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_0409f8ec513443c3fa7f2e07586e46f19a05ba91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Program Files\Android\Android Studio2\gradle\m2repository\com\android\databinding\baseLibrary\2.2.2\baseLibrary-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e3519b9d5287840df40776a8268ae336ca9f063">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.2_d8d4f293eecbfe067b9409a488e49f9971ece8c9\classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -58,14 +58,13 @@ public class MainActivity extends AppCompatActivity {
 
        // Fabric.with(this, new Crashlytics());
         final ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(MainActivity.this, activity_main);
-   //       setContentView(activity_main);
+       // setContentView(activity_main);
         setSupportActionBar((Toolbar) activityMainBinding.myToolbar.findViewById(R.id.actualToolbar));
-
        // ButterKnife.bind(this);
         TelephonyManager mngr = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
         Util.setIMEI(mngr.getDeviceId().toString());
 
-       Intent i=new Intent(MainActivity.this,FusedService.class);
+        Intent i=new Intent(MainActivity.this,FusedService.class);
         startService(i);
 
         String userName = activityMainBinding.editUserName.getText().toString();
@@ -77,9 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 saveUid = (activityMainBinding.editUserName.getText());
                 savePwd = (activityMainBinding.editPassword.getText());
                 SendUsernamePassword();
-
                 Toast.makeText(MainActivity.this,"name:"+ saveUid,Toast.LENGTH_LONG).show();
-
                 Intent i = new Intent(MainActivity.this,LoggedInFO.class);
                 startActivity(i);
             }
@@ -94,8 +91,8 @@ public class MainActivity extends AppCompatActivity {
                 List<LoginResponse> loginResponses = response.body();
                 if(loginResponses != null && loginResponses.size()>0){
                     LoginResponse loginResponse = loginResponses.get(0);
-                    Toast.makeText(MainActivity.this,"welcome :" +loginResponse.getFo_name() +loginResponse.getFo_id(),Toast.LENGTH_LONG).show();
-                    //getSupportActionBar().setTitle("welcome :" +loginResponse.getFo_name().toUpperCase());
+                    Toast.makeText(MainActivity.this,"welcome :" +loginResponse.getFo_name() +loginResponse.getId(),Toast.LENGTH_LONG).show();
+                    getSupportActionBar().setTitle("welcome :" +loginResponse.getFo_name().toUpperCase()+" "+loginResponse.getId());
                 }
             }
             @Override
