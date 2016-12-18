@@ -2,8 +2,10 @@ package com.example.aarya.fieldofficersurveilance.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.telephony.TelephonyManager;
 import android.text.Editable;
 import android.util.Log;
@@ -15,6 +17,7 @@ import android.widget.Toast;
 
 import com.crashlytics.android.Crashlytics;
 import com.example.aarya.fieldofficersurveilance.R;
+import com.example.aarya.fieldofficersurveilance.databinding.ActivityMainBinding;
 import com.example.aarya.fieldofficersurveilance.model.LoginResponse;
 import com.example.aarya.fieldofficersurveilance.model.Util;
 import com.example.aarya.fieldofficersurveilance.rest.ApiClient;
@@ -31,13 +34,16 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
+import static com.example.aarya.fieldofficersurveilance.R.layout.activity_main;
+import static com.example.aarya.fieldofficersurveilance.R.layout.toolbar;
+
 public class MainActivity extends AppCompatActivity {
 
-    @BindView(R.id.tv1_user_name) TextView tv_userName;
+    /*@BindView(R.id.tv1_user_name) TextView tv_userName;
     @BindView(R.id.tv2_password) TextView tv_password;
     @BindView(R.id.edt1_user_name) EditText edt_userName;
     @BindView(R.id.edt2_password) EditText edt_password;
-    @BindView(R.id.btn_submit) Button btn_submit;
+    @BindView(R.id.btn_submit) Button btn_submit;*/
 
    /* TextView tv_userName,tv_password;
     EditText edt_userName,edt_password;
@@ -50,30 +56,26 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Fabric.with(this, new Crashlytics());
+       // Fabric.with(this, new Crashlytics());
+        final ActivityMainBinding activityMainBinding = DataBindingUtil.setContentView(MainActivity.this, activity_main);
+   //       setContentView(activity_main);
+        setSupportActionBar((Toolbar) activityMainBinding.myToolbar.findViewById(R.id.actualToolbar));
 
-        setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
+       // ButterKnife.bind(this);
         TelephonyManager mngr = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
         Util.setIMEI(mngr.getDeviceId().toString());
 
        Intent i=new Intent(MainActivity.this,FusedService.class);
         startService(i);
 
-        /*tv_userName = (TextView) findViewById(R.id.tv1_user_name);
-        tv_password = (TextView) findViewById(R.id.tv2_password);
-        edt_userName = (EditText) findViewById(R.id.edt1_user_name);
-        edt_password = (EditText) findViewById(R.id.edt2_password);
-        btn_submit = (Button) findViewById(R.id.btn_submit);*/
+        String userName = activityMainBinding.editUserName.getText().toString();
+        Toast.makeText(MainActivity.this,"username:"+userName,Toast.LENGTH_LONG).show();
 
-        String str_userName = edt_userName.getText().toString();
-        Toast.makeText(MainActivity.this,"username:"+str_userName,Toast.LENGTH_LONG).show();
-
-       btn_submit.setOnClickListener(new View.OnClickListener() {
+       activityMainBinding.btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                saveUid = (edt_userName.getText());
-                savePwd = (edt_password.getText());
+                saveUid = (activityMainBinding.editUserName.getText());
+                savePwd = (activityMainBinding.editPassword.getText());
                 SendUsernamePassword();
 
                 Toast.makeText(MainActivity.this,"name:"+ saveUid,Toast.LENGTH_LONG).show();
@@ -96,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
                     //getSupportActionBar().setTitle("welcome :" +loginResponse.getFo_name().toUpperCase());
                 }
             }
-
             @Override
             public void onFailure(Call<List<LoginResponse>> call, Throwable t) {
             }

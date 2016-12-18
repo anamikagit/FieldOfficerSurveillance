@@ -3,15 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_c084ed7efde31fdef459883000e0020c86b8303a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -30,12 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7ff77725723167163d69439e3fd077bd0899babf">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.14_7f7626a8485096c8a7a68c630d8be4bc7cb45624\classes.dex" />
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-8.4.0_16b479117dde5a34d9d7ce72b51970fb6da5dafe\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -48,39 +39,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b5ed214b0d606b1da190762716475e90aec3089a\classes.dex" />
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_45770cdaf5f711f16724dff43aabc858c9b99d7f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_1c855c80207053b129ade0bee72c7c9db1e2ac88\classes.dex" />
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_17c993e575c2125f1fdf1f359ea2ac23ea2ae0d6\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_51c6dfa5391ab344caf823cd747ed3adec46c659\classes.dex" />
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-8.4.0_2192f7e9f340a3efd0c46b35aa680ecbc68adccb\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0838e0e8224438d35e6994ef12d396214878c87a\classes.dex" />
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-8.4.0_438ffa05daa21f70b49c99ddab94902c873390f7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -93,21 +84,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_069bbf1f57f168c7af9f4dc8ee2b3b271a84502b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.10_230df1f71512c6e129c1bcb1cda5d1a4acc221b5\classes.dex" />
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.4.0_9cfa6ff54452e9bce34d31dd6bcab9acf3afb375\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -120,30 +102,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_8d457dbd3bcfae8d499925b6cfd1a93834b6e0be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_3a3aede62950de0eed1258af5281a38ce2c94ad1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.2\d99260c62d97beae99ed1f779a35a9bf48c094a6\logging-interceptor-3.4.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d99260c62d97beae99ed1f779a35a9bf48c094a6">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.2_b447c775a543ec9d81bd7d22eeff13f9b1e6a165\classes.dex" />
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-8.4.0_caa92e4801e9d5053fee010981bcae86fa2ff619\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,21 +120,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.android.databinding\baseLibrary\2.2.2\5e227e2d794cf680dd34fb04dd564ce58d6c764d\baseLibrary-2.2.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_2b11717d00d42c7e0c4f6ab738ae4bf3e711b662\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="c9a84746fe67fedd5ceb6015b418a22bf5367dfc">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_154652aec30ddf480466ada1c4c47e5ab03daea7\classes.dex" />
+        sha1="5e227e2d794cf680dd34fb04dd564ce58d6c764d">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\baseLibrary-2.2.2_ef61e10a1d92574ae26eed0917b83fe288f808a1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -192,6 +147,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-8.4.0_a3399737cac0d2d1b32fbd381b63bb3c743749e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_faf419807cbdb5f37d6beba058bab7adb813817d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -201,12 +174,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="719baaf2267f8139e6b28d57b35573df062c88b7">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f5e9f7538a88fd93dba6ecf650f2a11e862cdb09\classes.dex" />
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-8.4.0_aef1f1d4910ca0bb8b8cc351c932dcdeedc65da4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-8.4.0_5b3d010cebf66f218f37d3dbb69fb6018f5af292\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -216,15 +198,6 @@
         revision="25.0.0"
         sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
         <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_e88517b9a107280f819a86a5e78c1d81e7e3c502\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-6.5.87_b652830e3692863c2dad9e64e8463adda45b51ea\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -246,6 +219,285 @@
     </item>
     <item
         is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_85a2478e432b5463cb1f97a7d6d0a2bdbb6466d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_72d9684d7770b38abe82ab6dc4d2ba4ac8061b29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_c084ed7efde31fdef459883000e0020c86b8303a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_742c1fa7bbc424c63502e8384c5d33d81dda693c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\crashlytics-core\2.3.14\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ff77725723167163d69439e3fd077bd0899babf">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-crashlytics-core-2.3.14_7f7626a8485096c8a7a68c630d8be4bc7cb45624\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-8.4.0_a7bcf36d6fab46271f9ecf9d7f671b4e5cf862f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.databinding\library\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-library-1.2.1_0eda98a3fd79e959741d436ba671a3070435b50e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b5ed214b0d606b1da190762716475e90aec3089a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.4.0_5b841418584ad4e5f361dea95b423bf5b2faf734\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-8.4.0_ba0637928bd44b15afa0b6b58575fbee4d2d87af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-8.4.0_454c9f308d8c15fd4f18d3a061a51eb75e508f22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_17671185c7d9fc557b37d1472256c9048b8c05e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_1c855c80207053b129ade0bee72c7c9db1e2ac88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-8.4.0_307e63c2dc70a94b31d0b27a9d2b1f05101e1e22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_51c6dfa5391ab344caf823cd747ed3adec46c659\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0838e0e8224438d35e6994ef12d396214878c87a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_069bbf1f57f168c7af9f4dc8ee2b3b271a84502b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.crashlytics.sdk.android\answers\1.3.10\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ed6b455e3dd7bbf1ff31f8df0b41e2f0d87f3ace">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.crashlytics.sdk.android-answers-1.3.10_230df1f71512c6e129c1bcb1cda5d1a4acc221b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_8d457dbd3bcfae8d499925b6cfd1a93834b6e0be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-8.4.0_bbc5948c6e9c8e6c1dca5af4883ade09addfe4be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.4.2\d99260c62d97beae99ed1f779a35a9bf48c094a6\logging-interceptor-3.4.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d99260c62d97beae99ed1f779a35a9bf48c094a6">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.4.2_b447c775a543ec9d81bd7d22eeff13f9b1e6a165\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_3a3aede62950de0eed1258af5281a38ce2c94ad1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_2b11717d00d42c7e0c4f6ab738ae4bf3e711b662\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6894c4af06b67d3238da501c9037abffd0c601c5">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_154652aec30ddf480466ada1c4c47e5ab03daea7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.databinding\adapters\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.databinding-adapters-1.2.1_287e966a9324d55b84877ed9595c8f361f459844\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-8.4.0_1029f3b5fdf5856b9cf75a62acee7af87f4b96bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_29ece283e35aeb5f0b9554d9e74fe9a0e4f86fc1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-8.4.0_707973cb9886444c749e38f375c1c9a6f4fc54da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf4a2f586fc6b143ad1f9eb9308abdb56909d295">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f5e9f7538a88fd93dba6ecf650f2a11e862cdb09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-8.4.0_8c79f07a740bec1060ffe1c1b3b7cc3e29230b01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-8.4.0_57e482b9b1000cc65a6eef364f00736d5a35cf9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -261,15 +513,6 @@
         revision="25.0.0"
         sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
         <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_1baa0771358d7f6f9524c5a99bd729668c1c9a01\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Aarya\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
-        <dex dex="E:\gitProjects\Gen_Proj\FieldOfficerSurveillance\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_72d9684d7770b38abe82ab6dc4d2ba4ac8061b29\classes.dex" />
     </item>
     <item
         is-multidex="true"

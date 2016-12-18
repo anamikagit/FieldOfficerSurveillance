@@ -36,6 +36,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
@@ -44,7 +47,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations' })
     compile 'com.android.support:appcompat-v7:25.0.0'
     testCompile 'junit:junit:4.12'
-    compile 'com.google.android.gms:play-services:6.5.87'
+    compile 'com.google.android.gms:play-services:8.4.0'
     //crashlytics
     compile('com.crashlytics.sdk.android:crashlytics:2.6.5@aar') {
         transitive = true;
@@ -57,4 +60,5 @@ dependencies {
     //butter knife
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
 }
