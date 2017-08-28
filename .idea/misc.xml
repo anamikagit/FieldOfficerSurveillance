@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+ i/anu-dev-phase-1
   <component name="AndroidDexCompilerConfiguration">
     <option name="PROGUARD_VM_OPTIONS" value="-Xmx512m" />
   </component>
@@ -62,4 +63,7 @@
       </state>
     </states>
   </component>
+
+  <component name="ProjectRootManager" version="2" assert-keyword="false" jdk-15="false" />
+ master
 </project>
